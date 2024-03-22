@@ -28,7 +28,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="/login"
+       @click="login"
         target="_blank"
         text
       >
@@ -51,5 +51,10 @@ export default {
   data: () => ({
     //
   }),
+  methods:{
+    login(){
+        this.$router.push('/login')
+      }
+  }
 };
 </script>
