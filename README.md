@@ -1,24 +1,23 @@
 # clase
 
-## Project setup
+## Abrir terminal y ejecutar:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Ejecutar en el terminal:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Una vez terminado el proyecto ejecutar:
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Reparar archivos
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
