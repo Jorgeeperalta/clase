@@ -28,6 +28,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
+       v-if="$store.state.btnLogin"
        @click="login"
         target="_blank"
         text
@@ -53,7 +54,9 @@ export default {
   }),
   methods:{
     login(){
+       
         this.$router.push('/login')
+        this.$store.state.btnLogin=false
       }
   }
 };
