@@ -19,5 +19,7 @@ npm run build
 ```
 npm run lint
 ```
-
+### Api rest de prueba
+```
+https://jsonplaceholder.typicode.com/
 

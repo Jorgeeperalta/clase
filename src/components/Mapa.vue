@@ -1,8 +1,10 @@
 <template>
   <v-container>
+  <v-card>
+    <v-card-text>
     <l-map
       @click="agregaMarcador"
-      style="height: 300px"
+      style="height: 400px"
       :zoom="zoom"
       :center="center"
     >
@@ -20,7 +22,9 @@
         </l-popup>
       </l-marker>
     </l-map>
-  </v-container>
+  </v-card-text>
+  </v-card>
+</v-container>
 </template>
 <script>
 import { LMap, LTileLayer, LMarker, LPopup } from "vue2-leaflet";

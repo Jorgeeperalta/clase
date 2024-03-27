@@ -1,8 +1,10 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-    <Mapa></Mapa>
-  </div>
+  <v-container>
+    <br><br><br><br>
+  <Mapa></Mapa>
+    
+  
+</v-container>
 </template>
 
 <script>
