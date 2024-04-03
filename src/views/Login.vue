@@ -18,6 +18,8 @@
         <br />
         <br />
         <v-btn outlined color="green" @click="traerDatosApi">trer datos desde api</v-btn>
+        <br><br>
+        <v-btn @click="grafico">Grafico de barras</v-btn>
       </v-col>
       {{ comentarios }}
     </v-row>
@@ -31,6 +33,10 @@ export default {
     comentarios: [],
   }),
   methods: {
+    grafico(){
+      this.$router.push("/graficos");
+      this.$store.state.btnLogin = true;
+    },
     traerDatosApi(){
       fetch('https://jsonplaceholder.typicode.com/comments')
       .then(response => response.json())

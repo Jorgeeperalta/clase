@@ -6,6 +6,7 @@ import vuetify from './plugins/vuetify'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
 import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
+import VueApexCharts from 'vue-apexcharts'
 import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
 delete Icon.Default.prototype._getIconUrl;
@@ -24,5 +25,6 @@ new Vue({
   router,
   store,
   vuetify,
+  VueApexCharts,
   render: h => h(App)
 }).$mount('#app')
