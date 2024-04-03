@@ -24,6 +24,8 @@ npm run lint
 https://jsonplaceholder.typicode.com/
 ```
 ### Pasos a seguir para publicar en Firebase
+
+https://www.youtube.com/watch?v=UkkKbVRN548&ab_channel=codigofacilito
 ```
 paso 1: Crear cuenta en Firebase
 https://firebase.google.com/docs/cli?authuser=0&hl=es#mac-linux-npm
@@ -45,6 +47,8 @@ paso 6:   firebase deploy
 
 
 https://vueexample-83a37.web.app/
+
+https://darling-kangaroo-65a9bf.netlify.app/
 
 ```
 ### Graficos

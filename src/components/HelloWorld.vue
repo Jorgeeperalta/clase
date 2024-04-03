@@ -25,7 +25,7 @@
           <br />please join our online
         </p>
         <p class="subheading font-weight-regular">
-          <b>Ciclo for en html</b>
+          <b>CICLO FOR EN HTML</b>
         </p>
       </v-col>
     </v-row>
