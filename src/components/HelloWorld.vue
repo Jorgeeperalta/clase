@@ -17,7 +17,7 @@
 
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          La aplicacion esta construida con el framework Vue.js + deploy Versel
+          La aplicacion esta construida con el framework Vue.js + deploy Versel + deploy firebase
         </h1>
 
         <p class="subheading font-weight-regular">
