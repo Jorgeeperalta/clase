@@ -1,5 +1,8 @@
 <template>
   <v-container>
+    <!-- <img  alt="verde" border="0"> -->
+ 
+    <v-img src="https://i.ibb.co/s2YV5J1/plano.png">
     <v-row class="text-center">
       <v-col cols="12">
         <br />
@@ -23,6 +26,7 @@
       </v-col>
       {{ comentarios }}
     </v-row>
+  </v-img>
   </v-container>
 </template>
 <script>
